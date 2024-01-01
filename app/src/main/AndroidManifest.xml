@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.WaitTimes"
+        tools:targetApi="31">
+        <activity
+            android:name=".CaliAdventure.PixarPier"
+            android:exported="false" />
+        <activity
+            android:name=".CaliAdventure.ParadiseGardens"
+            android:exported="false" />
+        <activity
+            android:name=".CaliAdventure.HollywoodLand"
+            android:exported="false" />
+        <activity
+            android:name=".CaliAdventure.GrizzlyPeak"
+            android:exported="false" />
+        <activity
+            android:name=".CaliAdventure.Avengers"
+            android:exported="false" />
+        <activity
+            android:name=".CaliAdventure.Carsland"
+            android:exported="false" />
+        <activity
+            android:name=".Disneyland.CritterCountry"
+            android:exported="false" />
+        <activity
+            android:name=".Disneyland.ToonTown"
+            android:exported="false" />
+        <activity
+            android:name=".Disneyland.GalaxysEdge"
+            android:exported="false" />
+        <activity
+            android:name=".Disneyland.Frontierland"
+            android:exported="false" />
+        <activity
+            android:name=".Disneyland.NewOrleans"
+            android:exported="false" />
+        <activity
+            android:name=".Disneyland.Tomorrowland"
+            android:exported="false" />
+        <activity
+            android:name=".Disneyland.Adventureland"
+            android:exported="false"
+            android:label="@string/title_activity_adventureland"
+            android:theme="@style/Theme.WaitTimes" />
+        <activity
+            android:name=".Disneyland.Fantasyland"
+            android:exported="false" />
+        <activity
+            android:name=".DisneylandActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CaliAdventureActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.WaitTimes">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

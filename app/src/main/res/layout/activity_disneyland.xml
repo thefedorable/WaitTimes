@@ -1,0 +1,75 @@
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/gridLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:columnCount="2"
+    tools:context=".DisneylandActivity">
+
+    <ImageButton
+        android:id="@+id/btnImage1"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_margin="10dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/adventure" />
+
+    <!-- ImageButton 2 -->
+    <ImageButton
+        android:id="@+id/btnImage2"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_margin="10dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/frontier" />
+
+    <!-- ImageButton 3 -->
+    <ImageButton
+        android:id="@+id/btnImage3"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_margin="10dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/tomorrow" />
+    <!-- Repeat the pattern for ImageButton 3 to 8 -->
+    <ImageButton
+        android:id="@+id/btnImage4"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_margin="10dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/fantasy" />
+
+    <ImageButton
+        android:id="@+id/btnImage5"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_margin="10dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/orleans" />
+
+    <ImageButton
+        android:id="@+id/btnImage6"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_margin="10dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/galaxy" />
+
+    <ImageButton
+        android:id="@+id/btnImage7"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_margin="10dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/toon" />
+
+    <ImageButton
+        android:id="@+id/btnImage8"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_margin="10dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/critter" />
+</GridLayout>

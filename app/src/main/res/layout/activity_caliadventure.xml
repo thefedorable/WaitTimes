@@ -1,0 +1,59 @@
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/gridLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:columnCount="2"
+    tools:context=".CaliAdventureActivity">
+
+    <ImageButton
+        android:id="@+id/btnImage1"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_margin="10dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/cars" />
+
+    <!-- ImageButton 2 -->
+    <ImageButton
+        android:id="@+id/btnImage2"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_margin="10dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/avengers" />
+
+    <!-- ImageButton 3 -->
+    <ImageButton
+        android:id="@+id/btnImage3"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_margin="10dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/pixar" />
+    <!-- Repeat the pattern for ImageButton 3 to 8 -->
+    <ImageButton
+        android:id="@+id/btnImage4"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_margin="10dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/grizzly" />
+
+    <ImageButton
+        android:id="@+id/btnImage5"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_margin="10dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/hollywood" />
+
+    <ImageButton
+        android:id="@+id/btnImage6"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_margin="10dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/paradise" />
+</GridLayout>
